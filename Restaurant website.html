@@ -128,13 +128,10 @@ margin : 0px 0px 5px;
 padding : 5px;
 }
 
-div.columns {
-  position: absolute;
-  right: 0;
-  width: 200px;
-  //float: right;
-  //width: 20%;
- // padding: 8px;
+.columns {
+  float: right;
+  
+  padding: 8px;
 }
 
 .price {
@@ -204,30 +201,28 @@ div.columns {
   <div class="item4">Desserts</div>
   <div class="item5">Reservations</div>
   </div>
-</div>
+
+	<div>
    <div class="hero-image">
     <div class="hero-text">      
       <h1>Terry's Taco Joint</h1> 
       <p>Pretty Good Tacos!</p>     
     </div>  
-    <div>
+    </div>  
+	   <div class="columns">
+			<ul class="price">
+			  <li class="header">$1.99</li>
+			  <li class="grey">tacos</li>
+			</ul>
+		  </div>
+		  <div class="columns">
+			 <ul class="price">
+			  <li class="header">$3.99</li>
+			  <li class="grey">Kombucha</li>
+			 </ul>
+		  </div>
+	</div>  
 
-     
-   <div class="columns">
-        <ul class="price">
-          <li class="header">$1.99</li>
-          <li class="grey">tacos</li>
-        </ul>
-      </div>
-      <div class="columns">
-         <ul class="price">
-          <li class="header">$3.99</li>
-          <li class="grey">Kombucha</li>
-         </ul>
-      </div>
-
-
-  
 <script>
 function openNav() {
   document.getElementById("mySidebar").style.width = "250px";

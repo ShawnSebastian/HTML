@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AdminLTE 3 | Top Navigation Shawn</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+</head>
+<body class="hold-transition layout-top-nav">
+<div class="wrapper">
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
+    <div class="container-fluid">
+      <a href="../../index3.html" class="navbar-brand">
+        <img src="../../dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+        <span class="brand-text font-weight-light">AdminLTE 3</span>
+      </a>
+
+      <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse order-3" id="navbarCollapse">
+        <!-- Left navbar links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="index3.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Dropdown</a>
+            <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow">
+              <li><a href="#" class="dropdown-item">Some action </a></li>
+              <li><a href="#" class="dropdown-item">Some other action</a></li>
+
+              <li class="dropdown-divider"></li>
+
+              <!-- Level two dropdown-->
+              <li class="dropdown-submenu dropdown-hover">
+                <a id="dropdownSubMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">Hover for action</a>
+                <ul aria-labelledby="dropdownSubMenu2" class="dropdown-menu border-0 shadow">
+                  <li>
+                    <a tabindex="-1" href="#" class="dropdown-item">level 2</a>
+                  </li>
+
+                  <!-- Level three dropdown-->
+                  <li class="dropdown-submenu">
+                    <a id="dropdownSubMenu3" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">level 2</a>
+                    <ul aria-labelledby="dropdownSubMenu3" class="dropdown-menu border-0 shadow">
+                      <li><a href="#" class="dropdown-item">3rd level</a></li>
+                      <li><a href="#" class="dropdown-item">3rd level</a></li>
+                    </ul>
+                  </li>
+                  <!-- End Level three -->
+
+                  <li><a href="#" class="dropdown-item">level 2</a></li>
+                  <li><a href="#" class="dropdown-item">level 2</a></li>
+                </ul>
+              </li>
+              <!-- End Level two -->
+            </ul>
+          </li>
+        </ul>
+
+        <!-- SEARCH FORM -->
+        <form class="form-inline ml-0 ml-md-3">
+          <div class="input-group input-group-sm">
+            <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+            <div class="input-group-append">
+              <button class="btn btn-navbar" type="submit">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <!-- Right navbar links -->
+      <ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto">
+        <!-- Messages Dropdown Menu -->
+        <li class="nav-item dropdown">
+          <a class="nav-link" data-toggle="dropdown" href="#">
+            <i class="fas fa-comments"></i>
+            <span class="badge badge-danger navbar-badge">3</span>
+          </a>
+          <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+            <a href="#" class="dropdown-item">
+              <!-- Message Start -->
+              <div class="media">
+                <img src="../../dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+                <div class="media-body">
+                  <h3 class="dropdown-item-title">
+                    Brad Diesel
+                    <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
+                  </h3>
+                  <p class="text-sm">Call me whenever you can...</p>
+                  <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                </div>
+              </div>
+              <!-- Message End -->
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">
+              <!-- Message Start -->
+              <div class="media">
+                <img src="../../dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                <div class="media-body">
+                  <h3 class="dropdown-item-title">
+                    John Pierce
+                    <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
+                  </h3>
+                  <p class="text-sm">I got your message bro</p>
+                  <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                </div>
+              </div>
+              <!-- Message End -->
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">
+              <!-- Message Start -->
+              <div class="media">
+                <img src="../../dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                <div class="media-body">
+                  <h3 class="dropdown-item-title">
+                    Nora Silvester
+                    <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
+                  </h3>
+                  <p class="text-sm">The subject goes here</p>
+                  <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                </div>
+              </div>
+              <!-- Message End -->
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+          </div>
+        </li>
+        <!-- Notifications Dropdown Menu -->
+        <li class="nav-item dropdown">
+          <a class="nav-link" data-toggle="dropdown" href="#">
+            <i class="far fa-bell"></i>
+            <span class="badge badge-warning navbar-badge">15</span>
+          </a>
+          <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+            <span class="dropdown-header">15 Notifications</span>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">
+              <i class="fas fa-envelope mr-2"></i> 4 new messages
+              <span class="float-right text-muted text-sm">3 mins</span>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">
+              <i class="fas fa-users mr-2"></i> 8 friend requests
+              <span class="float-right text-muted text-sm">12 hours</span>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">
+              <i class="fas fa-file mr-2"></i> 3 new reports
+              <span class="float-right text-muted text-sm">2 days</span>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+            <i class="fas fa-th-large"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- /.navbar -->
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <!-- /.Shawn Content start here-->
+ 
+ 
+ <div class="container-fluid">
+
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="sm-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                1. യാക്കോബേ, ഞാൻ നിനക്കുള്ളവരെ ഒക്കെയും ചേർത്തുകൊള്ളും; യിസ്രായേലിൽ _ ഞാൻ ശേഖരിക്കും; തൊഴുത്തിലെ __, മേച്ചൽപുറത്തെ ആട്ടിൻ കൂട്ടത്തെപ്പോലെ ഞാൻ അവരെ ഒരുമിച്ചുകൂട്ടും;
+              </button>
+            </h2>
+          </div>
+               
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+             ഉ  :  മീഖാ 2:12  ശേഷിപ്പുള്ളവരെ , ആടുകളെപ്പോലെ
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                2.    ദർശനമില്ലാത്ത രാത്രിയും ലക്ഷണം പറവാൻ കഴിയാത്ത ഇരുട്ടും ഉണ്ടാകും.  സൂര്യൻ അസ്തമിക്കയും പകൽ ഇരുണ്ടുപോകയും ചെയ്യും. ആർക്ക്  ?
+            </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+            ഉ  :  മീഖാ 3:6  പ്രവാചകന്മാർക്കു
+             </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                3.  യഹോവയുടെ ആലയം ഉള്ള പർവ്വതം പർവ്വതങ്ങളുടെ ശിഖരത്തിൽ സ്ഥാപിതവും കുന്നുകൾക്കു മീതെ ഉന്നതവുമായിരിക്കും; എന്ന് ?
+           </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+             ഉ  :  മീഖാ 4:1  അന്ത്യകാലത്തു
+            </div>
+          </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingfour">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                    4.   നീ അനേകജാതികളെ തകർത്തുകളകയും അവരുടെ ലാഭം യഹോവെക്കും അവരുടെ സമ്പത്തു സർവ്വഭൂമിയുടെയും കർത്താവിന്നും നിവേദിക്കയും ചെയ്യും.   "നീ "  ആര് ? 
+                </button>
+              </h2>
+            </div>
+            <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordionExample">
+              <div class="card-body">
+                ഉ  :  മീഖാ 4:13    സീയോൻ പുത്രി
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingfive">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                  5.  നീയോ, ബേത്ത്ളേഹേം എഫ്രാത്തേ, നീ __ യിസ്രായേലിന്നു അധിപതിയായിരിക്കേണ്ടുന്നവൻ എനിക്കു നിന്നിൽനിന്നു ഉത്ഭവിച്ചുവരും; അവന്റെ ഉത്ഭവം പണ്ടേയുള്ളതും പുരാതനമായതും തന്നേ.
+                </button>
+              </h2>
+            </div>
+            <div id="collapsefive" class="collapse" aria-labelledby="headingfive" data-parent="#accordionExample">
+              <div class="card-body">
+                ഉ  :  മീഖാ 5:2  യെഹൂദാസഹസ്രങ്ങളിൽ ചെറുതായിരുന്നാലും
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingsix">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                  6.   പലജാതികളുടെയും ഇടയിൽ യഹോവയിങ്കൽ നിന്നുള്ള മഞ്ഞുപോലെയും മനുഷ്യന്നായി താമസിക്കയോ മനുഷ്യപുത്രന്മാർക്കായി കാത്തിരിക്കയോ ചെയ്യാതെ പുല്ലിന്മേൽ പെയ്യുന്ന മാരിപോലെയും ആകും. ആര്  ? 
+                </button>
+              </h2>
+            </div>
+            <div id="collapsesix" class="collapse" aria-labelledby="headingsix" data-parent="#accordionExample">
+              <div class="card-body">
+                ഉ  :  മീഖാ 5:7  യാക്കോബിൽ ശേഷിപ്പുള്ളവർ
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingseven">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+                  7.  ഞാൻ നിന്നെ മിസ്രയീംദേശത്തുനിന്നു പുറപ്പെടുവിച്ചു, അടിമ വീ ട്ടിൽനിന്നു നിന്നെ വീണ്ടെടുത്തു, നിന്റെ മുമ്പിൽ അയച്ചു. ആരെയൊക്കെ ? 
+                </button>
+              </h2>
+            </div>
+            <div id="collapseseven" class="collapse" aria-labelledby="headingseven" data-parent="#accordionExample">
+              <div class="card-body">
+                ഉ  :  മീഖാ 6:4  മോശെയെയും അഹരോനെയും മിർയ്യാമിനെയും
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingeight">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
+                  8.  ഞാൻ നിന്നെ ശൂന്യവും നിന്റെ നിവാസികളെ പരിഹാസ വിഷയവും ആക്കേണ്ടതിന്നും നിങ്ങൾ എന്റെ  ജനത്തിന്റെ  നിന്ദ വഹിക്കേണ്ടതിന്നും പ്രമാണമാക്കിയിരിക്കുന്നു;  എന്ത് ?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseeight" class="collapse" aria-labelledby="headingeight" data-parent="#accordionExample">
+              <div class="card-body">
+                ഉ  മീഖാ 6:16 ഒമ്രിയുടെ ചട്ടങ്ങളും ആഹാബ്ഗൃഹത്തിന്റെ സകലപ്രവൃത്തികളും
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingnine">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapsenine" aria-expanded="false" aria-controls="collapsenine">
+                  9.  ജാഗ്രതയോടെ ദോഷം പ്രവർത്തിക്കേണ്ടതിന്നു അവരുടെ കൈ അതിലേക്കു നീണ്ടിരിക്കുന്നു; പ്രഭു _; ന്യായാധിപതി പ്രതിഫലം വാങ്ങി ന്യായം വിധിക്കുന്നു; മഹാൻ തന്റെ _ പ്രസ്താവിക്കുന്നു; ഇങ്ങനെ അവർ പിരിമുറുക്കുന്നു.
+                </button>
+              </h2>
+            </div>
+            <div id="collapsenine" class="collapse" aria-labelledby="headingeine" data-parent="#accordionExample">
+              <div class="card-body">
+                ഉ  :  മീഖാ 7:3  പ്രതിഫലം ചോദിക്കുന്നു , മനസ്സിലെ ദുരാഗ്രഹം
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingten">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseten" aria-expanded="false" aria-controls="collapseten">
+                  10. അവർ പാമ്പുപോലെ പൊടിനക്കും; നിലത്തെ ഇഴജാതിപോലെ തങ്ങളുടെ _ വിറെച്ചുംകൊണ്ടു വരും; അവർ പേടിച്ചുംകൊണ്ടു നമ്മുടെ __ അടുക്കൽ വരികയും നിന്നെ ഭയപ്പെടുകയും ചെയ്യും.
+                </button>
+              </h2>
+            </div>
+            <div id="collapseten" class="collapse" aria-labelledby="headingeten" data-parent="#accordionExample">
+              <div class="card-body">
+                ഉ  :  മീഖാ 7:17  ഗുഹകളിൽനിന്നു , ദൈവമായ യഹോവയുടെ  
+              </div>
+            </div>
+          </div>
+      </div>
+
+ 
+          
+        
+    
+    
+    
+    
+    
+    
+     
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+                   
+    
+  
+ <!-- /.Shawn Content end here-->
+ 
+ 
+ 
+ 
+
+  </div>
+  <!-- /.content-wrapper -->
+
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+ 
+ 
+ 
+
+<!-- jQuery -->
+<script src="../../plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../../dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="../../dist/js/demo.js"></script>
+</body>
+</html>

@@ -19,33 +19,31 @@
         </ul>
         </nav>
 
-    <p>
-        Translate this page in your preferred language:
-    </p>
-
-    <div id="google_translate_element"></div>
-
-    <script type="text/javascript">
-        function googleTranslateElementInit() {
-                new google.translate.TranslateElement(
-                    {pageLanguage: 'en', includedLanguages : 'ml,en,hi,ta'},
-                    'google_translate_element'
-                );
-    
-                var $googleDiv = $("#google_translate_element .skiptranslate");
-                var $googleDivChild = $("#google_translate_element .skiptranslate div");
-                $googleDivChild.next().remove();
-              
-                $googleDiv.contents().filter(function(){
-                	return this.nodeType === 3 && $.trim(this.nodeValue) !== '';
-                }).remove();
-        }
-    </script>
-
-    <script type="text/javascript" 
-            src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
-    </script>
-
+        <p>
+          Translate this page in your preferred language:  
+        <div id="google_translate_element" style="display: inline-block;"></div>
+      </p>
+  
+      <script type="text/javascript">
+          function googleTranslateElementInit() {
+                  new google.translate.TranslateElement(
+                      {pageLanguage: 'ml', includedLanguages : 'ml,en,hi,ta'},
+                      'google_translate_element'
+                  );
+      
+                  var $googleDiv = $("#google_translate_element .skiptranslate");
+                  var $googleDivChild = $("#google_translate_element .skiptranslate div");
+                  $googleDivChild.next().remove();
+                
+                  $googleDiv.contents().filter(function(){
+                    return this.nodeType === 3 && $.trim(this.nodeValue) !== '';
+                  }).remove();
+          }
+      </script>
+  
+      <script type="text/javascript" 
+              src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+      </script>
     
   </div>
   
